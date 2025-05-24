@@ -28,16 +28,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['@electric-sql/pglite']
   },
-  build: {
-    rollupOptions: {
-      external: ['@electric-sql/pglite'],
-      output: {
-        manualChunks: {
-          pglite: ['@electric-sql/pglite']
-        }
-      }
-    }
-  },
   server: {
     headers: {
       'Cross-Origin-Opener-Policy': 'same-origin',
