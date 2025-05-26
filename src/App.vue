@@ -2,12 +2,14 @@
   <div class="app">
     <PatientForm />
     <PatientList />
+    <RawQuery />
   </div>
 </template>
 
 <script setup>
 import PatientForm from './components/PatientForm.vue'
 import PatientList from './components/PatientList.vue'
+import RawQuery from './components/RawQuery.vue';
 </script>
 
 <style>
