@@ -1,11 +1,13 @@
 <template>
   <div class="app">
     <PatientForm />
+    <PatientList />
   </div>
 </template>
 
 <script setup>
 import PatientForm from './components/PatientForm.vue'
+import PatientList from './components/PatientList.vue'
 </script>
 
 <style>
