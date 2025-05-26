@@ -80,7 +80,7 @@ onBeforeUnmount(() => {
 .container {
   display: flex;
   justify-content: center;
-  padding: 1px 12px;
+  padding: 1px 10px;
   background-color: #f9f9f9;
   min-height: 50vh;
 }
