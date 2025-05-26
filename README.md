@@ -53,7 +53,7 @@ Open your browser and navigate to:
 
 ##  Challenges Faced
 
-### 🔁 BroadcastChannel Communication
+###  BroadcastChannel Communication
 
 A custom event and `BroadcastChannel` were successfully implemented to sync patient data across components.  
 The `patient-added` event is **dispatched** and **received properly**, triggering `fetchPatients()` as expected.
