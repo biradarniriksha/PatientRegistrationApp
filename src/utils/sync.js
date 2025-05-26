@@ -1,5 +1,5 @@
-export const channel = new BroadcastChannel('patient-db-sync')
+export const channel = new BroadcastChannel('patients-channel')
 
 export const broadcastUpdate = () => {
-  channel.postMessage({ type: 'patient-added' })
+  channel.postMessage(JSON.stringify({ type: 'patient-added' }))
 }
