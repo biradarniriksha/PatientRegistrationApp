@@ -61,6 +61,7 @@ const runQuery = async () => {
 <style scoped>
 .sql-runner {
   margin-top: 20px;
+  padding-bottom: 6px;
 }
 textarea {
   width: 100%;
@@ -76,6 +77,7 @@ table {
   padding: 8px;
   border-collapse: collapse;
   margin-top: 10px;
+  bottom: 10px;
 }
 th, td {
   border: 1px solid #ccc;

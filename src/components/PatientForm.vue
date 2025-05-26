@@ -101,14 +101,14 @@ const registerPatient = async () => {
   padding: 10px 25px;
   margin-top: 2px; /* Manual top space */
   width: 90vw;
-  max-width: 400px;
+  max-width: 600px;
   box-sizing: border-box;
   transition: width 0.3s ease;
 }
 
 @media (min-width: 768px) {
   .form-card {
-    max-width: 500px;
+    max-width: 600px;
   }
 }
 
